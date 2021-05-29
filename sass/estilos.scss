@@ -14,3 +14,19 @@ body{
     background: $color_primario;
     font-family: $fuente_cuerpo;
 }
+
+// *** HEADER ***
+#header-nav{
+    background: $color_secundario;
+    border-radius: 0;
+    border: none;
+}
+
+#logo-img{
+    background: url(../img/logo.png) no-repeat; // acá se inserta la imágen corporativa (logo)
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    margin: 10px 15px 10px 0;
+    filter: drop-shadow(2px 3px 4px black);
+}
