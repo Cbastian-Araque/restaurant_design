@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACEA,OAAO,CAAC,gFAAI,CAIZ,OAAO,CAAC,kFAAI,CDFZ,AAAA,CAAC,CAAE,OAAO,CAAE,QAAQ,AAAA,CAChB,UAAU,CAAE,UAAU,CACtB,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,CAAC,CACZ,AAED,AAAA,IAAI,AAAA,CACA,SAAS,CAAE,IAAI,CACf,KAAK,CEPK,IAAI,CFQd,UAAU,CEXG,OAAO,CFYpB,WAAW,CCLC,uBAAuB,CAAE,OAAO,CDM/C",
     "sources": [
-        "../sass/estilos.scss"
+        "../sass/estilos.scss",
+        "../sass/_fuentes.scss",
+        "../sass/_colores.scss"
     ],
     "names": [],
     "file": "estilos.css"

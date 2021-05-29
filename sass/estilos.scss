@@ -1,0 +1,16 @@
+// Archivo con las fuentes tipográficas
+@import 'fuentes';
+@import 'colores';
+
+*, ::after, ::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 16px;
+    color: $color_negro;
+    background: $color_primario;
+    font-family: $fuente_cuerpo;
+}
