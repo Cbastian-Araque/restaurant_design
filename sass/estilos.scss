@@ -79,3 +79,29 @@ body{
 #nav-list a span{
     font-size: 1.8em;
 }
+
+#phone{
+    margin-top: 5px;
+}
+
+#phone a{ //numero de teléfono
+    text-align: right;
+    padding-bottom: 0;
+}
+
+// #phone div{ // Domicilio
+//     color: $color_negro;
+//     text-align: right;
+//     padding-right: 15px;
+// }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid $color_negro;
+}
+
+.navbar-header button.navbar-toggle{
+    clear: both;
+    position: relative;
+    top: -45px;
+    right: 0;
+}
