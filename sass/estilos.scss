@@ -105,3 +105,105 @@ body{
     top: -45px;
     right: 0;
 }
+
+// Fin del encabezado
+
+// Jumbotron (imagen principal)
+.container .jumbotron{
+    box-shadow: 1px 2px 8px;
+}
+
+#menu-tile, #specials-tile, #map-tile{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 1px solid $color_negro;
+    overflow: hidden;
+    &:hover{box-shadow: 0 2px 4px 2px $color_negro}
+}
+
+// ********* MEDIAQUERIS 
+
+// ************ Dispositivos grandes
+@media (min-width: 1200px) {
+    .container .jumbotron{
+        background: url(../img/restaurant.jpg) no-repeat;
+        // background-size: contain no-repeat;
+        height: 515px;
+    }
+}
+
+// **************** Dispositivos medianos
+@media (min-width: 992px) and (max-width: 1199px) {
+    #logo-img{
+        background: url(../img/logo.png) no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+
+    // pagina de inicio
+    .container .jumbotron{
+        background: url(../img/restaurant.jpg) no-repeat;
+        height: 490px;
+    }
+}
+
+// ************ Dispositivos pequeños
+@media (min-width: 768px) and (max-width: 991px) {
+    .container .jumbotron{
+        background: url(../img/restaurant.jpg) no-repeat;
+        background-size: cover;
+        height: 430px;
+    }
+}
+
+// Dispositivos Extra pequeños
+@media (max-width: 767px) {
+    .navbar-brand{
+        padding-top: 10px;
+        height: 40px;
+    }
+    .navbar-brand h1{ // NOMBRE DEL RESTAURANTE
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+    .navbar-brand p{ //COCINA DE ALTA CALIDAD
+        font-size: .6em;
+        margin-top: 12px;
+    }
+    .navbar-brand p img{ //ICONO DE " COCINA ALTA CALIDAD"
+        height: 20px;
+    }
+    #collapsable-nav a{ // TEXTO DEL MENU DE NAVEGACIÓN COLLAPSABLE
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span{ //ICONO COLLAPSABLE DEL MENU
+        font-size: 1em;
+        margin-right: 5px;
+    }
+    #call-btn > a{
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid $color_negro;
+        background: $color_secundario;
+        color: $color_negro;
+    }
+    #xs-deliver{
+        margin-top: 5px;
+        font-size: .8em;
+        letter-spacing: .4em;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    // FIN DEL HEADER
+
+    .container .jumbotron{
+        margin-top: 30px;
+        padding: 0;
+    }
+}
+asd
