@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,OAAO,CAAC,gFAAI,CAIZ,OAAO,CAAC,kFAAI",
+    "sources": [
+        "../sass/fuentes.scss"
+    ],
+    "names": [],
+    "file": "fuentes.css"
+}
