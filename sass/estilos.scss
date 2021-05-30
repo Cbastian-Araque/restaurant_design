@@ -123,6 +123,18 @@ body{
     &:hover{box-shadow: 0 2px 4px 2px $color_negro}
 }
 
+#menu-tile{
+    background: url(../img/huevos.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#specials-tile{
+    background: url(../img/carne.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 // ********* MEDIAQUERIS 
 
 // ************ Dispositivos grandes
@@ -206,4 +218,3 @@ body{
         padding: 0;
     }
 }
-asd
