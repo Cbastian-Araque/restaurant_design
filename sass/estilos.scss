@@ -105,8 +105,44 @@ body{
     top: -45px;
     right: 0;
 }
-
 // Fin del encabezado
+
+// Pie de página
+.panel-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background: $color_terciario;
+    color: $color_blanco;
+    letter-spacing: 1.9px;
+    border-top: 0;
+}
+
+.panel-footer div.row{
+    margin-bottom: 35px;
+}
+
+#hours, #address{
+    line-height: 2;
+}
+
+#hours > span, #address > span{
+    font-size: 1.3em;
+}
+
+#address p{
+    color: $color_negro;
+    font-weight: bold;
+    font-size: .8em
+}
+
+#testimonials{
+    font-style: italic;
+}
+
+#testimonials p:nth-child(2){
+    margin-top: 25px;
+}
 
 // Jumbotron (imagen principal)
 .container .jumbotron{
@@ -130,7 +166,7 @@ body{
 }
 
 #specials-tile{
-    background: url(../img/carne.jpg);
+    background: url(../img/drink.jpg);
     background-size: cover;
     background-position: center;
 }
