@@ -120,7 +120,7 @@ body{
     position: relative;
     border: 1px solid $color_negro;
     overflow: hidden;
-    &:hover{box-shadow: 0 2px 4px 2px $color_negro}
+    &:hover{box-shadow: 0 2px 4px 2px $color_negro; opacity: .87}
 }
 
 #menu-tile{
@@ -134,6 +134,20 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+#menu-tile span, #specials-tile span, #map-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    background: $color_opaco;
+    color: $color_blanco;
+    text-transform: uppercase;
+}
+
+
 
 // ********* MEDIAQUERIS 
 
@@ -216,5 +230,10 @@ body{
     .container .jumbotron{
         margin-top: 30px;
         padding: 0;
+    }
+
+    #menu-tile, #specials-tile{
+        width: 85%;
+        margin: 8px auto;
     }
 }
