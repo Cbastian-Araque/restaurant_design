@@ -183,7 +183,29 @@ body{
     text-transform: uppercase;
 }
 
+.category-tile{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+    &:hover{
+        box-shadow: 1px 0 8px $color_negro;
+        opacity: .87;
+    }
+}
 
+.category-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background: $color_opaco;
+    color: $color_blanco;
+}
 
 // ********* MEDIAQUERIS 
 
