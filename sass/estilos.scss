@@ -206,6 +206,65 @@ body{
     background: $color_opaco;
     color: $color_blanco;
 }
+// Fin del menu categorias
+
+// single-category-page.html
+.menu-item-tile{
+    margin-bottom: 25px;
+}
+
+.menu-item-tile hr{
+    width: 80%;
+    margin: auto;
+    border-color: red;
+}
+
+.menu-item-tile .menu-item-price{
+    font-size: 1.1em;
+    text-align: right;
+    margin-top: -15px;
+    margin-right: -15px;
+}
+
+.menu-item-tile .menu-item-price span{
+    font-size: .6em;
+}
+
+.menu-item-photo{
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+
+.menu-item-photo div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background: $color_opaco;
+    color: $color_blanco;
+    text-align: center;
+}
+
+.menu-item-description{
+    padding-right: 30px;
+}
+
+h3.menu-item-tile{
+    margin: 0 0 10px;
+}
+
+.menu-item-details{
+    font: .9em;
+    font-style: italic;
+}
+// Fin de single-page-categories.html
 
 // ********* MEDIAQUERIS 
 
@@ -303,6 +362,18 @@ body{
     #menu-tile, #specials-tile{
         width: 85%;
         margin: 8px auto;
+    }
+
+    .menu-item-photo{
+        margin-right: auto;
+    }
+
+    .menu-item-tile .menu-item-price{
+        text-align: center;
+    }
+
+    .menu-item-description{
+        text-align: center;
     }
 }
 
